@@ -1,0 +1,21 @@
+body{
+    background: url('../resources/images/robots.png');
+}
+
+h4{
+    color: white;
+}
+
+/* styles for circular images */
+.img-circle{
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    max-width: 100%;
+
+    /* border stuff */
+    background-color:#fff;
+    border:1px solid #ddd;
+    -webkit-transition:all .2s ease-in-out;
+    transition:all .2s ease-in-out;
+}
